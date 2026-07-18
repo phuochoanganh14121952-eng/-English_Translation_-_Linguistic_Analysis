@@ -34,7 +34,7 @@ def save_persistent_history(history, extracted_en_clean):
 st.set_page_config(page_title="English Translation & Linguistic Analysis", layout="wide")
 
 # Khởi tạo Client mới của thư viện google-genai
-client = genai.Client(api_key="AIzaSyDa-byPRnb15IhIifJ3IYAYu5OSLB5fn64")
+client = genai.Client(api_key="AQ.Ab8RN6It2sas6KntBnZSibAP1mIFUMxKXpb6yEXhtuxEtMBhQg")
 
 # Khóa thông số sáng tạo thấp nhất để đảm bảo tính nhất quán tuyệt đối
 generation_config = types.GenerateContentConfig(
